@@ -1,0 +1,135 @@
+
+/*Clases bases del diseño*/
+.geekit-form {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	font-family: sans-serif;
+	color: #24273e;
+}
+
+.geekit-body
+{
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+/********** ESTILOS DEL HEADER***********/
+.geekit-form .geekit-header
+{
+    height: 30%;
+    width: 100%;
+ /*   background-image: url(/Contenidos/Imagenes/BackGround/Degrade2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;*/
+
+/*background: rgba(0,149,207,1);
+background: -moz-linear-gradient(top, rgba(0,149,207,1) 0%, rgba(41,198,255,1) 0%, rgba(212,228,239,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,149,207,1)), color-stop(0%, rgba(41,198,255,1)), color-stop(100%, rgba(212,228,239,1)));
+background: -webkit-linear-gradient(top, rgba(0,149,207,1) 0%, rgba(41,198,255,1) 0%, rgba(212,228,239,1) 100%);
+background: -o-linear-gradient(top, rgba(0,149,207,1) 0%, rgba(41,198,255,1) 0%, rgba(212,228,239,1) 100%);
+background: -ms-linear-gradient(top, rgba(0,149,207,1) 0%, rgba(41,198,255,1) 0%, rgba(212,228,239,1) 100%);
+background: linear-gradient(to bottom, rgba(0,149,207,1) 0%, rgba(41,198,255,1) 0%, rgba(212,228,239,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0095cf', endColorstr='#d4e4ef', GradientType=0 );*/
+	background-color: #f4f7f6;
+}
+
+.geekit-form .geekit-header #geekit-header-logo
+{
+	display: block;
+    margin: 0 auto;
+    height: 80%;
+}
+
+.geekit-form .geekit-header .geekit-header-slogan
+{
+	text-align: center;
+	display: block;
+	font-family: "Alegreya";
+	color: #4c929a;
+    size: 20px;
+    font-size: 22px;
+    margin-top: -9px;
+    letter-spacing: 1;
+    font-weight: 700;
+    font-style: italic;
+}
+/********** ESTILOS BODY***********/
+.geekit-form .geekit-body-container
+{
+	background-color: #f4f7f6;
+	height: 45%;
+    width: 100%;
+}
+
+/********** ESTILOS FIRMA***********/
+.geekit-form .geekit-firm-container
+{
+	padding-top: 7px;
+    width: 100%;
+/*	background: rgba(212,228,239,1);
+	background: -moz-linear-gradient(top, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 10%, rgba(41,198,255,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(212,228,239,1)), color-stop(10%, rgba(212,228,239,1)), color-stop(100%, rgba(41,198,255,1)));
+	background: -webkit-linear-gradient(top, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 10%, rgba(41,198,255,1) 100%);
+	background: -o-linear-gradient(top, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 10%, rgba(41,198,255,1) 100%);
+	background: -ms-linear-gradient(top, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 10%, rgba(41,198,255,1) 100%);
+	background: linear-gradient(to bottom, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 10%, rgba(41,198,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#29c6ff', GradientType=0 );*/
+background-color: #262626;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+        padding-bottom: 8px;
+}
+
+.geekit-form .geekit-firm-container .geekit-firm-container-sub{
+	min-width: 250px;
+	width: 20%;
+	flex-grow: 1;
+    align-self: flex-start;
+    -webkit-flex: 1 1 250px;
+    flex: 1 1 250px;
+    text-align: left;
+    padding-left: 10px;
+
+    font-size: 12px;
+    line-height: 1.5;
+    color: #ededed;
+    font-family: adobe-clean, "HelveticaNeue-light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.geekit-form .geekit-firm-container .geekit-firm-container-uno{
+	margin-left: 15px;
+}
+
+.geekit-form .geekit-firm-container .geekit-firm-container-dos{}
+
+.geekit-form .geekit-firm-container .geekit-firm-container-tres{
+	margin-right: 15px;
+}
+
+.geekit-form .geekit-firm-container .geekit-firm-container-tres .social-network-icon
+{
+	height: 39px;
+    margin-right: 15px;
+}
+
+.geekit-form .geekit-firm-container .geekit-firm-separator
+{
+    content: '';
+    display: block;
+    border-bottom: 2px solid #119044;;
+    margin-right: 100px;
+}
+
+.geekit-form .geekit-firm-container .geekit-firm-container-sub .geekit-firm-container-title
+{
+	font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    width: 70%;
+    white-space: normal;
+        font-family: adobe-clean, "HelveticaNeue-light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
