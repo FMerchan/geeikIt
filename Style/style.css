@@ -4,8 +4,8 @@
 	margin: 0px;
 	padding: 0px;
 	display: block;
-	font-family: sans-serif;
 	color: #24273e;
+    font-family: 'Open Sans';
 }
 
 .geekit-body
@@ -14,23 +14,16 @@
 	padding: 0px;
 	display: block;
 }
+
+div 
+{
+    display: block;
+}
 /********** ESTILOS DEL HEADER***********/
 .geekit-form .geekit-header
 {
     height: 30%;
     width: 100%;
- /*   background-image: url(/Contenidos/Imagenes/BackGround/Degrade2.jpeg);
-    background-repeat: no-repeat;
-    background-size: 100%;*/
-
-/*background: rgba(0,149,207,1);
-background: -moz-linear-gradient(top, rgba(0,149,207,1) 0%, rgba(41,198,255,1) 0%, rgba(212,228,239,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,149,207,1)), color-stop(0%, rgba(41,198,255,1)), color-stop(100%, rgba(212,228,239,1)));
-background: -webkit-linear-gradient(top, rgba(0,149,207,1) 0%, rgba(41,198,255,1) 0%, rgba(212,228,239,1) 100%);
-background: -o-linear-gradient(top, rgba(0,149,207,1) 0%, rgba(41,198,255,1) 0%, rgba(212,228,239,1) 100%);
-background: -ms-linear-gradient(top, rgba(0,149,207,1) 0%, rgba(41,198,255,1) 0%, rgba(212,228,239,1) 100%);
-background: linear-gradient(to bottom, rgba(0,149,207,1) 0%, rgba(41,198,255,1) 0%, rgba(212,228,239,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0095cf', endColorstr='#d4e4ef', GradientType=0 );*/
 	background-color: #f4f7f6;
 }
 
@@ -57,31 +50,97 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0095cf', end
 /********** ESTILOS BODY***********/
 .geekit-form .geekit-body-container
 {
+    display: inline-table;
 	background-color: #f4f7f6;
 	height: 45%;
     width: 100%;
 }
 
+
+.geekit-body-tab-ul 
+{
+    display: inline-block;
+    margin: 0px;
+        padding: 0px;
+}
+
+.geekit-body-tab-container 
+{
+    display: block;
+    text-align: center;
+        margin-top: -15px;
+    margin-bottom: -17px;
+}
+
+.geekit-body-tab-ul .geekit-body-tab 
+{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    height: 32px;
+    width: 138px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    display: inline-block;
+    float: left;
+    list-style: none;
+    vertical-align: middle;
+    position: relative;
+    text-align: -webkit-match-parent;
+}
+
+.geekit-body-tab-ul li.geekit-body-tab:first-child {
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.geekit-body-tab-ul li.geekit-body-tab:last-child {
+    border-right: 1px solid #ccc;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.geekit-body-tab-ul li.geekit-body-tab {
+    background: #4c929a;
+    color: #fff;
+}
+
+.geekit-body-tab-ul li.geekit-body-tab.active {
+    background: #e89315;
+    color: #fff;
+}
+
+.geekit-body-tab-ul li.geekit-body-tab a {
+    color: white;
+    display: table;
+    font-size: 13px;
+    font-weight: 800;
+    height: 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 32px;
+    font-family: sans-serif;
+}
+
+.geekit-body-tab-ul li.geekit-body-tab.active a {
+    color: #fff;
+}
 /********** ESTILOS FIRMA***********/
 .geekit-form .geekit-firm-container
 {
 	padding-top: 7px;
     width: 100%;
-/*	background: rgba(212,228,239,1);
-	background: -moz-linear-gradient(top, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 10%, rgba(41,198,255,1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(212,228,239,1)), color-stop(10%, rgba(212,228,239,1)), color-stop(100%, rgba(41,198,255,1)));
-	background: -webkit-linear-gradient(top, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 10%, rgba(41,198,255,1) 100%);
-	background: -o-linear-gradient(top, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 10%, rgba(41,198,255,1) 100%);
-	background: -ms-linear-gradient(top, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 10%, rgba(41,198,255,1) 100%);
-	background: linear-gradient(to bottom, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 10%, rgba(41,198,255,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#29c6ff', GradientType=0 );*/
-background-color: #262626;
+    background-color: #262626;
 	display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-        padding-bottom: 8px;
+    padding-bottom: 8px;
 }
 
 .geekit-form .geekit-firm-container .geekit-firm-container-sub{
